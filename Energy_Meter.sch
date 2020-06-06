@@ -94,8 +94,6 @@ Wire Wire Line
 Wire Wire Line
 	4200 3650 4250 3650
 Wire Wire Line
-	4300 3650 4300 3800
-Wire Wire Line
 	4250 2650 4250 3650
 Connection ~ 4250 3650
 Wire Wire Line
@@ -280,17 +278,6 @@ Wire Wire Line
 	5200 2250 5450 2250
 Wire Wire Line
 	5450 2250 5700 2250
-$Comp
-L Connector:Conn_01x02_Male J1
-U 1 1 5EE1A71F
-P 1200 1350
-F 0 "J1" H 1308 1531 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 1308 1440 50  0000 C CNN
-F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 1200 1350 50  0001 C CNN
-F 3 "~" H 1200 1350 50  0001 C CNN
-	1    1200 1350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2250 4400 3200 4400
 Wire Wire Line
@@ -471,8 +458,6 @@ Wire Wire Line
 Wire Wire Line
 	1400 1950 2000 1950
 Connection ~ 2000 1950
-Wire Wire Line
-	1400 1350 2000 1350
 $Comp
 L power:+5V #PWR0107
 U 1 1 5EDBF3B7
@@ -1092,4 +1077,61 @@ Wire Wire Line
 	9200 1950 9200 1700
 Wire Wire Line
 	8500 1700 9200 1700
+Wire Wire Line
+	1400 1350 1750 1350
+$Comp
+L Connector:Conn_01x02_Male FUENTE1
+U 1 1 5EE1A71F
+P 1200 1350
+F 0 "FUENTE1" H 1308 1531 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 1308 1440 50  0000 C CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 1200 1350 50  0001 C CNN
+F 3 "~" H 1200 1350 50  0001 C CNN
+	1    1200 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5EDB805A
+P 1750 1050
+F 0 "#FLG0101" H 1750 1125 50  0001 C CNN
+F 1 "PWR_FLAG" H 1750 1223 50  0000 C CNN
+F 2 "" H 1750 1050 50  0001 C CNN
+F 3 "~" H 1750 1050 50  0001 C CNN
+	1    1750 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5EDD028A
+P 2000 2100
+F 0 "#FLG0102" H 2000 2175 50  0001 C CNN
+F 1 "PWR_FLAG" H 2000 2273 50  0000 C CNN
+F 2 "" H 2000 2100 50  0001 C CNN
+F 3 "~" H 2000 2100 50  0001 C CNN
+	1    2000 2100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1750 1050 1750 1350
+Connection ~ 1750 1350
+Wire Wire Line
+	1750 1350 2000 1350
+Wire Wire Line
+	2000 2100 2000 1950
+Wire Wire Line
+	4300 3650 4300 3800
+$Comp
+L power:+3.3V #PWR0112
+U 1 1 5EDF845A
+P 4050 1050
+F 0 "#PWR0112" H 4050 900 50  0001 C CNN
+F 1 "+3.3V" H 4065 1223 50  0000 C CNN
+F 2 "" H 4050 1050 50  0001 C CNN
+F 3 "" H 4050 1050 50  0001 C CNN
+	1    4050 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 1050 4050 1350
 $EndSCHEMATC

@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 1)
+    (drawings 4)
     (tracks 4)
     (zones 0)
     (modules 70)
@@ -25,7 +25,7 @@
     (41 Cmts.User user hide)
     (42 Eco1.User user hide)
     (43 Eco2.User user hide)
-    (44 Edge.Cuts user hide)
+    (44 Edge.Cuts user)
     (45 Margin user hide)
     (46 B.CrtYd user hide)
     (47 F.CrtYd user)
@@ -34,7 +34,9 @@
   )
 
   (setup
-    (last_trace_width 0.25)
+    (last_trace_width 0.3)
+    (user_trace_width 0.3)
+    (user_trace_width 0.5)
     (trace_clearance 0.1524)
     (zone_clearance 0.508)
     (zone_45_only no)
@@ -285,7 +287,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDBF1A3)
-    (at 160.4 77.6 90)
+    (at 163.194 67.186 90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5EDC35DE)
@@ -321,7 +323,7 @@
   )
 
   (module Capacitor_SMD:CP_Elec_5x5.3 (layer Top) (tedit 5BCA39CF) (tstamp 5EDBF1CB)
-    (at 146.558 109.982 270)
+    (at 149.352 99.568 270)
     (descr "SMD capacitor, aluminum electrolytic, Nichicon, 5.0x5.3mm")
     (tags "capacitor electrolytic")
     (path /5EDA021E)
@@ -332,46 +334,46 @@
     (fp_text value 10uF (at 0 3.7 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_circle (center 0 0) (end 2.5 0) (layer F.Fab) (width 0.1))
-    (fp_line (start 2.65 -2.65) (end 2.65 2.65) (layer F.Fab) (width 0.1))
-    (fp_line (start -1.65 -2.65) (end 2.65 -2.65) (layer F.Fab) (width 0.1))
-    (fp_line (start -1.65 2.65) (end 2.65 2.65) (layer F.Fab) (width 0.1))
-    (fp_line (start -2.65 -1.65) (end -2.65 1.65) (layer F.Fab) (width 0.1))
-    (fp_line (start -2.65 -1.65) (end -1.65 -2.65) (layer F.Fab) (width 0.1))
-    (fp_line (start -2.65 1.65) (end -1.65 2.65) (layer F.Fab) (width 0.1))
-    (fp_line (start -2.033956 -1.2) (end -1.533956 -1.2) (layer F.Fab) (width 0.1))
-    (fp_line (start -1.783956 -1.45) (end -1.783956 -0.95) (layer F.Fab) (width 0.1))
-    (fp_line (start 2.76 2.76) (end 2.76 1.06) (layer F.SilkS) (width 0.12))
-    (fp_line (start 2.76 -2.76) (end 2.76 -1.06) (layer F.SilkS) (width 0.12))
-    (fp_line (start -1.695563 -2.76) (end 2.76 -2.76) (layer F.SilkS) (width 0.12))
-    (fp_line (start -1.695563 2.76) (end 2.76 2.76) (layer F.SilkS) (width 0.12))
-    (fp_line (start -2.76 1.695563) (end -2.76 1.06) (layer F.SilkS) (width 0.12))
-    (fp_line (start -2.76 -1.695563) (end -2.76 -1.06) (layer F.SilkS) (width 0.12))
-    (fp_line (start -2.76 -1.695563) (end -1.695563 -2.76) (layer F.SilkS) (width 0.12))
-    (fp_line (start -2.76 1.695563) (end -1.695563 2.76) (layer F.SilkS) (width 0.12))
-    (fp_line (start -3.625 -1.685) (end -3 -1.685) (layer F.SilkS) (width 0.12))
-    (fp_line (start -3.3125 -1.9975) (end -3.3125 -1.3725) (layer F.SilkS) (width 0.12))
-    (fp_line (start 2.9 -2.9) (end 2.9 -1.05) (layer F.CrtYd) (width 0.05))
-    (fp_line (start 2.9 -1.05) (end 3.95 -1.05) (layer F.CrtYd) (width 0.05))
-    (fp_line (start 3.95 -1.05) (end 3.95 1.05) (layer F.CrtYd) (width 0.05))
-    (fp_line (start 3.95 1.05) (end 2.9 1.05) (layer F.CrtYd) (width 0.05))
-    (fp_line (start 2.9 1.05) (end 2.9 2.9) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -1.75 2.9) (end 2.9 2.9) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -1.75 -2.9) (end 2.9 -2.9) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -2.9 1.75) (end -1.75 2.9) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -2.9 -1.75) (end -1.75 -2.9) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -2.9 -1.75) (end -2.9 -1.05) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -2.9 1.05) (end -2.9 1.75) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -2.9 -1.05) (end -3.95 -1.05) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -3.95 -1.05) (end -3.95 1.05) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -3.95 1.05) (end -2.9 1.05) (layer F.CrtYd) (width 0.05))
     (fp_text user %R (at 0 0 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad 1 smd roundrect (at -2.2 0 270) (size 3 1.6) (layers Top F.Paste F.Mask) (roundrect_rratio 0.15625)
-      (net 3 "Net-(C2-Pad1)"))
+    (fp_line (start -3.95 1.05) (end -2.9 1.05) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -3.95 -1.05) (end -3.95 1.05) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.9 -1.05) (end -3.95 -1.05) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.9 1.05) (end -2.9 1.75) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.9 -1.75) (end -2.9 -1.05) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.9 -1.75) (end -1.75 -2.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.9 1.75) (end -1.75 2.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.75 -2.9) (end 2.9 -2.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -1.75 2.9) (end 2.9 2.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.9 1.05) (end 2.9 2.9) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 3.95 1.05) (end 2.9 1.05) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 3.95 -1.05) (end 3.95 1.05) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.9 -1.05) (end 3.95 -1.05) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.9 -2.9) (end 2.9 -1.05) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -3.3125 -1.9975) (end -3.3125 -1.3725) (layer F.SilkS) (width 0.12))
+    (fp_line (start -3.625 -1.685) (end -3 -1.685) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.76 1.695563) (end -1.695563 2.76) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.76 -1.695563) (end -1.695563 -2.76) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.76 -1.695563) (end -2.76 -1.06) (layer F.SilkS) (width 0.12))
+    (fp_line (start -2.76 1.695563) (end -2.76 1.06) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.695563 2.76) (end 2.76 2.76) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.695563 -2.76) (end 2.76 -2.76) (layer F.SilkS) (width 0.12))
+    (fp_line (start 2.76 -2.76) (end 2.76 -1.06) (layer F.SilkS) (width 0.12))
+    (fp_line (start 2.76 2.76) (end 2.76 1.06) (layer F.SilkS) (width 0.12))
+    (fp_line (start -1.783956 -1.45) (end -1.783956 -0.95) (layer F.Fab) (width 0.1))
+    (fp_line (start -2.033956 -1.2) (end -1.533956 -1.2) (layer F.Fab) (width 0.1))
+    (fp_line (start -2.65 1.65) (end -1.65 2.65) (layer F.Fab) (width 0.1))
+    (fp_line (start -2.65 -1.65) (end -1.65 -2.65) (layer F.Fab) (width 0.1))
+    (fp_line (start -2.65 -1.65) (end -2.65 1.65) (layer F.Fab) (width 0.1))
+    (fp_line (start -1.65 2.65) (end 2.65 2.65) (layer F.Fab) (width 0.1))
+    (fp_line (start -1.65 -2.65) (end 2.65 -2.65) (layer F.Fab) (width 0.1))
+    (fp_line (start 2.65 -2.65) (end 2.65 2.65) (layer F.Fab) (width 0.1))
+    (fp_circle (center 0 0) (end 2.5 0) (layer F.Fab) (width 0.1))
     (pad 2 smd roundrect (at 2.2 0 270) (size 3 1.6) (layers Top F.Paste F.Mask) (roundrect_rratio 0.15625)
       (net 1 GND))
+    (pad 1 smd roundrect (at -2.2 0 270) (size 3 1.6) (layers Top F.Paste F.Mask) (roundrect_rratio 0.15625)
+      (net 3 "Net-(C2-Pad1)"))
     (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/CP_Elec_5x5.3.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -380,7 +382,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDC1FF4)
-    (at 151.638 111.0765 270)
+    (at 155.594 100.786 270)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5ED9B926)
@@ -416,7 +418,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDBF1ED)
-    (at 164 77.6 90)
+    (at 166.794 67.186 90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5EDA0CAF)
@@ -452,7 +454,7 @@
   )
 
   (module Capacitor_SMD:CP_Elec_5x5.3 (layer Top) (tedit 5BCA39CF) (tstamp 5EDBF215)
-    (at 125.984 83.82)
+    (at 128.778 73.406)
     (descr "SMD capacitor, aluminum electrolytic, Nichicon, 5.0x5.3mm")
     (tags "capacitor electrolytic")
     (path /5EDA85DD)
@@ -511,7 +513,7 @@
   )
 
   (module Capacitor_SMD:CP_Elec_5x5.3 (layer Top) (tedit 5BCA39CF) (tstamp 5EDBF23D)
-    (at 125.984 91.948)
+    (at 128.778 81.534)
     (descr "SMD capacitor, aluminum electrolytic, Nichicon, 5.0x5.3mm")
     (tags "capacitor electrolytic")
     (path /5EDA8E9A)
@@ -570,7 +572,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDBF24E)
-    (at 118.308 84.36 180)
+    (at 121.102 73.946 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5EDA9861)
@@ -606,7 +608,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDBF25F)
-    (at 118.308 89.36 180)
+    (at 121.102 78.946 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5EDA9E13)
@@ -642,7 +644,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDBF270)
-    (at 166.6 127.2625 90)
+    (at 169.394 116.8485 90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5EDCCD4D/5EDDE087)
@@ -678,7 +680,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDC21CD)
-    (at 134.0625 99.4 180)
+    (at 136.8565 88.986 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5EDCCD4D/5EDD0423)
@@ -714,7 +716,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDBF292)
-    (at 134.0625 109.4 180)
+    (at 136.8565 98.986 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5EDCCD4D/5EDD0E21)
@@ -750,7 +752,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDC1091)
-    (at 159.8 127.5375 90)
+    (at 162.594 117.1235 90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5EDCCD4D/5EDE6716)
@@ -786,7 +788,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDBF2B4)
-    (at 153 127.4 90)
+    (at 155.794 116.986 90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5EDCCD4D/5EDE8704)
@@ -822,7 +824,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDC28FB)
-    (at 135.4 114 180)
+    (at 138.194 103.586 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5EDCCD4D/5EE092C0)
@@ -858,7 +860,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDC287A)
-    (at 135.0625 124.2)
+    (at 137.8565 113.786)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5EDCCD4D/5EE092CC)
@@ -894,7 +896,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDC2BE9)
-    (at 135.2625 128.2)
+    (at 138.0565 117.786)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5EDCCD4D/5EE0BAEE)
@@ -930,7 +932,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDBF2F8)
-    (at 135.2625 139)
+    (at 138.0565 128.586)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5EDCCD4D/5EE0BAFA)
@@ -966,7 +968,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDC0E50)
-    (at 150.252 120.1535 270)
+    (at 153.046 109.7395 270)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5EE4DB92)
@@ -1002,7 +1004,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDC0EB0)
-    (at 157.252 120.1535 270)
+    (at 160.046 109.7395 270)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5EE4E6DF)
@@ -1038,7 +1040,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDCBC6C)
-    (at 163.752 120.2785 270)
+    (at 166.546 109.8645 270)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5EE4EE1D)
@@ -1074,7 +1076,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDC1F93)
-    (at 176.9 115.4625 90)
+    (at 179.694 105.0485 90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5EE8550D)
@@ -1110,7 +1112,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDBF34D)
-    (at 176.9 123.4 270)
+    (at 179.694 112.986 270)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5EE85B76)
@@ -1146,7 +1148,7 @@
   )
 
   (module Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal (layer Top) (tedit 5C635420) (tstamp 5EDBF370)
-    (at 121.92 102.616 90)
+    (at 124.714 92.202 90)
     (descr "3.5 mm, Stereo, Right Angle, Surface Mount (SMT), Audio Jack Connector (https://www.cui.com/product/resource/sj-352x-smt-series.pdf)")
     (tags "3.5mm audio cui horizontal jack stereo")
     (path /5EDCCD4D/5EDFB80D)
@@ -1201,7 +1203,7 @@
   )
 
   (module Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal (layer Top) (tedit 5C635420) (tstamp 5EDC02A1)
-    (at 121.92 115.316 90)
+    (at 124.714 104.902 90)
     (descr "3.5 mm, Stereo, Right Angle, Surface Mount (SMT), Audio Jack Connector (https://www.cui.com/product/resource/sj-352x-smt-series.pdf)")
     (tags "3.5mm audio cui horizontal jack stereo")
     (path /5EDCCD4D/5EDFC470)
@@ -1256,7 +1258,7 @@
   )
 
   (module Package_QFP:TQFP-48_7x7mm_P0.5mm (layer Top) (tedit 5A02F146) (tstamp 5EDBF3DA)
-    (at 161.3 108.2)
+    (at 164.094 97.786)
     (descr "48 LEAD TQFP 7x7mm (see MICREL TQFP7x7-48LD-PL-1.pdf)")
     (tags "QFP 0.5")
     (path /5ED936DA)
@@ -1392,7 +1394,7 @@
   )
 
   (module Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal (layer Top) (tedit 5C635420) (tstamp 5EDCBBB2)
-    (at 121.92 127.762 90)
+    (at 124.714 117.348 90)
     (descr "3.5 mm, Stereo, Right Angle, Surface Mount (SMT), Audio Jack Connector (https://www.cui.com/product/resource/sj-352x-smt-series.pdf)")
     (tags "3.5mm audio cui horizontal jack stereo")
     (path /5EDCCD4D/5EDFCA1A)
@@ -1447,7 +1449,7 @@
   )
 
   (module Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical (layer Top) (tedit 5B78013E) (tstamp 5EDBF421)
-    (at 115.8 76.4 90)
+    (at 118.594 65.986 90)
     (descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-02A example for new part number: 22-27-2021, 2 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator")
     (tags "connector Molex KK-254 side entry")
     (path /5EE1A71F)
@@ -1501,7 +1503,7 @@
   )
 
   (module Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical (layer Top) (tedit 5B78013E) (tstamp 5EDBF44D)
-    (at 152.908 139.192)
+    (at 155.702 128.778)
     (descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-04A example for new part number: 22-27-2041, 4 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf), generated with kicad-footprint-generator")
     (tags "connector Molex KK-254 side entry")
     (path /5EDCCD4D/5EE39CF7)
@@ -1565,7 +1567,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical (layer Top) (tedit 59FED5CC) (tstamp 5EDBF466)
-    (at 175.8 105.48 180)
+    (at 178.594 95.066 180)
     (descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x05 2.54mm single row")
     (path /5EEEF0A1)
@@ -1611,7 +1613,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23 (layer Top) (tedit 5A02FF57) (tstamp 5EDBF47B)
-    (at 164.7 90.4 180)
+    (at 167.494 79.986 180)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /5EEF06A8)
@@ -1652,7 +1654,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-23 (layer Top) (tedit 5A02FF57) (tstamp 5EDBF490)
-    (at 164.8 97 180)
+    (at 167.594 86.586 180)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /5EEF1E94)
@@ -1693,7 +1695,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDBF4A1)
-    (at 149.284 98.8755 90)
+    (at 152.078 88.4615 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EDBAB6A)
@@ -1729,7 +1731,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDBF4B2)
-    (at 152.784 98.938 90)
+    (at 155.578 88.524 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EDBB495)
@@ -1765,7 +1767,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDBF4C3)
-    (at 145.784 98.938 90)
+    (at 148.578 88.524 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EDBB77B)
@@ -1801,7 +1803,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDBF4D4)
-    (at 142.284 98.8755 90)
+    (at 145.078 88.4615 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EDBBA87)
@@ -1837,7 +1839,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDC2334)
-    (at 133.9375 102.9)
+    (at 136.7315 92.486)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EDCCD4D/5EDD018A)
@@ -1873,7 +1875,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDC1061)
-    (at 138.0625 106.4)
+    (at 140.8565 95.986)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EDCCD4D/5EDD0965)
@@ -1909,7 +1911,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDBF507)
-    (at 159.8 132.9375 90)
+    (at 162.594 122.5235 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EDCCD4D/5EDDD7A8)
@@ -1945,7 +1947,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDBF518)
-    (at 163.2 127.4625 90)
+    (at 165.994 117.0485 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EDCCD4D/5EDDDB57)
@@ -1981,7 +1983,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDC214C)
-    (at 138.0625 102.9)
+    (at 140.8565 92.486)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EDCCD4D/5EDCF5A6)
@@ -2017,7 +2019,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDC2395)
-    (at 134 106.4)
+    (at 136.794 95.986)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EDCCD4D/5EDD12D3)
@@ -2053,7 +2055,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDBF54B)
-    (at 156.6 133.1375 90)
+    (at 159.394 122.7235 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EDCCD4D/5EDE670A)
@@ -2089,7 +2091,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDC1031)
-    (at 156.4 127.4625 90)
+    (at 159.194 117.0485 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EDCCD4D/5EDE6710)
@@ -2125,7 +2127,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDBF56D)
-    (at 153.2 133.2 90)
+    (at 155.994 122.786 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EDCCD4D/5EDE86F8)
@@ -2161,7 +2163,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDC1423)
-    (at 149.6 127.4625 90)
+    (at 152.394 117.0485 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EDCCD4D/5EDE86FE)
@@ -2197,7 +2199,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDC26B6)
-    (at 135.2625 118)
+    (at 138.0565 107.586)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EDCCD4D/5EE092BA)
@@ -2233,7 +2235,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDBF5A0)
-    (at 135.2625 121.6)
+    (at 138.0565 111.186)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EDCCD4D/5EE092C6)
@@ -2269,7 +2271,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDC27C9)
-    (at 139.3375 117.8)
+    (at 142.1315 107.386)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EDCCD4D/5EE092B4)
@@ -2305,7 +2307,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDBF5C2)
-    (at 139.2625 121.6)
+    (at 142.0565 111.186)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EDCCD4D/5EE092D2)
@@ -2341,7 +2343,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDBF5D3)
-    (at 139.8625 131.8)
+    (at 142.6565 121.386)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EDCCD4D/5EE0BAE8)
@@ -2377,7 +2379,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDBF5E4)
-    (at 135.2625 135.4)
+    (at 138.0565 124.986)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EDCCD4D/5EE0BAF4)
@@ -2413,7 +2415,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDBF5F5)
-    (at 135.2625 131.8)
+    (at 138.0565 121.386)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EDCCD4D/5EE0BAE2)
@@ -2449,7 +2451,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDBF606)
-    (at 139.8625 135.4)
+    (at 142.6565 124.986)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EDCCD4D/5EE0BB00)
@@ -2485,7 +2487,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDBF617)
-    (at 146.752 120.1535 270)
+    (at 149.546 109.7395 270)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EE4F5CA)
@@ -2521,7 +2523,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDBF628)
-    (at 153.752 120.216 270)
+    (at 156.546 109.802 270)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EE4FE45)
@@ -2557,7 +2559,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDBF639)
-    (at 160.752 120.216 270)
+    (at 163.546 109.802 270)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EE5013B)
@@ -2593,7 +2595,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDC05E4)
-    (at 170.0625 91.6)
+    (at 172.8565 81.186)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EEF3175)
@@ -2629,7 +2631,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDBF65B)
-    (at 170 98)
+    (at 172.794 87.586)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EEF3B54)
@@ -2665,7 +2667,7 @@
   )
 
   (module RF_Module:ESP32-WROOM-32 (layer Top) (tedit 5B5B4654) (tstamp 5EDBF6CA)
-    (at 148 84)
+    (at 150.794 73.586)
     (descr "Single 2.4 GHz Wi-Fi and Bluetooth combo chip https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf")
     (tags "Single 2.4 GHz Wi-Fi and Bluetooth combo  chip")
     (path /5ED95B59)
@@ -2842,7 +2844,7 @@
   )
 
   (module Package_TO_SOT_SMD:SOT-223-3_TabPin2 (layer Top) (tedit 5A02FF57) (tstamp 5EDBF6E0)
-    (at 124.968 73.66 90)
+    (at 127.762 63.246 90)
     (descr "module CMS SOT223 4 pins")
     (tags "CMS SOT")
     (path /5EDA6958)
@@ -2885,7 +2887,7 @@
   )
 
   (module Crystal:Crystal_HC49-4H_Vertical (layer Top) (tedit 5A1AD3B7) (tstamp 5EDBF6F7)
-    (at 172 116.8 270)
+    (at 174.794 106.386 270)
     (descr "Crystal THT HC-49-4H http://5hertz.com/pdfs/04404_D.pdf")
     (tags "THT crystalHC-49-4H")
     (path /5EE84BC9)
@@ -2926,7 +2928,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDC40E4)
-    (at 156.184 98.9755 90)
+    (at 158.978 88.5615 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EE8DB3E)
@@ -2962,7 +2964,7 @@
   )
 
   (module LED_SMD:LED_0805_2012Metric (layer Top) (tedit 5B36C52C) (tstamp 5EDCB87E)
-    (at 123.5225 66.04)
+    (at 126.3165 55.626)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags diode)
     (path /5EEBF10E)
@@ -3000,7 +3002,7 @@
   )
 
   (module LED_SMD:LED_0805_2012Metric (layer Top) (tedit 5B36C52C) (tstamp 5EDC3FFF)
-    (at 129.6 66.2)
+    (at 132.394 55.786)
     (descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags diode)
     (path /5EEBF72F)
@@ -3038,7 +3040,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDC4063)
-    (at 131.064 73.0735 90)
+    (at 133.858 62.6595 90)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EE3EE79)
@@ -3074,7 +3076,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDC4033)
-    (at 131.064 77.8025 270)
+    (at 133.858 67.3885 270)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EE3FDDA)
@@ -3110,7 +3112,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDCA7D2)
-    (at 134.8 77.2 270)
+    (at 137.594 66.786 270)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EEE40BA)
@@ -3146,7 +3148,7 @@
   )
 
   (module Resistor_SMD:R_0805_2012Metric (layer Top) (tedit 5B36C52B) (tstamp 5EDCA7E3)
-    (at 164.7375 85.6 180)
+    (at 167.5315 75.186 180)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5EF2BB62)
@@ -3182,7 +3184,7 @@
   )
 
   (module Button_Switch_THT:SW_PUSH_6mm_H4.3mm (layer Top) (tedit 5A02FE31) (tstamp 5EDCA802)
-    (at 171.6 72.4)
+    (at 174.394 61.986)
     (descr "tactile push button, 6x6mm e.g. PHAP33xx series, height=4.3mm")
     (tags "tact sw push 6mm")
     (path /5EED0304)
@@ -3233,7 +3235,7 @@
   )
 
   (module Button_Switch_THT:SW_PUSH_6mm_H4.3mm (layer Top) (tedit 5A02FE31) (tstamp 5EDCA821)
-    (at 171.4 81.8)
+    (at 174.194 71.386)
     (descr "tactile push button, 6x6mm e.g. PHAP33xx series, height=4.3mm")
     (tags "tact sw push 6mm")
     (path /5EF17831)
@@ -3283,11 +3285,14 @@
     )
   )
 
-  (gr_line (start 110.49 57.658) (end 183.134 57.404) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 112.014 134.366) (end 112.014 48.006) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 185.674 134.366) (end 112.014 134.366) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 185.674 48.006) (end 185.674 134.366) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 112.014 48.006) (end 185.674 48.006) (layer Edge.Cuts) (width 0.05))
 
-  (via (at 116.84 65.532) (size 3.3) (drill 2.8) (layers Top Bottom) (net 0))
-  (via (at 172.72 66.04) (size 3.3) (drill 2.8) (layers Top Bottom) (net 0))
-  (via (at 172.72 137.16) (size 3.3) (drill 2.8) (layers Top Bottom) (net 0))
-  (via (at 116.84 137.16) (size 3.3) (drill 2.8) (layers Top Bottom) (net 0) (tstamp 5EDCB821))
+  (via (at 119.634 55.118) (size 3.3) (drill 2.8) (layers Top Bottom) (net 0))
+  (via (at 175.514 55.626) (size 3.3) (drill 2.8) (layers Top Bottom) (net 0))
+  (via (at 175.514 126.746) (size 3.3) (drill 2.8) (layers Top Bottom) (net 0))
+  (via (at 119.634 126.746) (size 3.3) (drill 2.8) (layers Top Bottom) (net 0) (tstamp 5EDCB821))
 
 )
