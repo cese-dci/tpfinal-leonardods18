@@ -679,4 +679,6 @@ F 3 "~" H 5500 2350 50  0001 C CNN
 	1    5500 2350
 	1    0    0    -1  
 $EndComp
+Text Notes 3150 7200 0    50   ~ 0
+CONECTOR JACK  SJ-352X-SMT
 $EndSCHEMATC

@@ -620,10 +620,8 @@ Wire Wire Line
 Connection ~ 6450 2800
 Wire Bus Line
 	750  3100 10650 3100
-Text Notes 4900 900  0    50   ~ 0
+Text Notes 4250 900  0    150  Italic 30
 Configuración de Tensión
-Text Notes 5000 3450 0    50   ~ 0
-Configuración de Corriente\n
 $Comp
 L Connector:AudioJack3 IA1
 U 1 1 5EDFB80D
@@ -679,4 +677,8 @@ F 3 "~" H 5500 2350 50  0001 C CNN
 	1    5500 2350
 	1    0    0    -1  
 $EndComp
+Text Notes 2850 7200 0    80   ~ 0
+CONECTOR JACK  SJ-352X-SMT
+Text Notes 4150 3500 0    150  Italic 30
+Configuración de Corriente
 $EndSCHEMATC
