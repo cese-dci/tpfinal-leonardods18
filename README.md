@@ -10,5 +10,7 @@ Wifi o bluetooth, el circuito integrado ATM90E36 es el encargado de tomar las va
 
 El diseño se Realizará en JLCPCB. https://jlcpcb.com/#
 
+![Aquí la imagen de la carga en la página]
+(https://github.com/cese-dci/tpfinal-leonardods18/blob/master/Objeto_3d/jlcpcb.JPG)
 
 
