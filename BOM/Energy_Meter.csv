@@ -1,0 +1,29 @@
+Id;Identificador;Empaquetado;Cantidad;IdentificaciÃ³n;Fabricante;Descripcion
+1;G***;fiuba;1;LOGO;;
+2;Y1;Crystal_HC49-4H_Vertical;1;16.384MHz;;
+3;U2;SOT-223-3_TabPin2;1;LD1117S18TR_SOT223;;
+4;U1;ESP32-WROOM-32;1;ESP32-WROOM-32D;ESP32-WROOM-32D (4MB);Módulos WiFi (802.11) SMD Module, ESP32-D0WD, 32Mbits SPI flash, UART mode, PCB
+5;C9,C10,C11,C12,C13,C14,C15,C16,C17,C18,C19,C20;C_0805_2012Metric;12;18nF;VJ0805Y181KXAPW1BC;Capacitores cerámicos de capas múltiples (MLCC) - SMD/SMT 0805 180pF 50volts
+6;C1,C3,C4,C7;C_0805_2012Metric;4;100nF;885012207128;Capacitores cerámicos de capas múltiples (MLCC) - SMD/SMT WCAP-CSGP 100V 0.1uF 0805 10%
+7;C2,C5,C6;CP_Elec_5x5.3;3;10uF;;
+8;C8;C_0805_2012Metric;1;47nF;;
+9;C21,C22;C_0805_2012Metric;2;22pF;;
+10;IA1;Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal;1;Corriente A;SJ-3523-SMT-TR; Conectores de teléfono Audio Jacks
+11;IB1;Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal;1;Corriente B;SJ-3523-SMT-TR; Conectores de teléfono Audio Jacks
+12;IC1;TQFP-48_7x7mm_P0.5mm;1;ATM90E36;ATM90E36A-AU-Y;Entrada analógica - AFE 48-TQFP, IND TEMP 1.8V/3V
+13;IC1;Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal;1;Corriente C;SJ-3523-SMT-TR; Conectores de teléfono Audio Jacks
+14;FUENTE;Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical;1;Conn_01x02_Male;;
+15;J5;Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical;1;TENSION;;
+16;J6;PinHeader_1x05_P2.54mm_Vertical;1;PROGRAMACION;;
+17;Q1,Q2;SOT-23;2;BC817;;
+18;R1,R2,R3,R4,R26,R27,R30,R31;R_0805_2012Metric;8;10K;;
+19;R5,R6,R15,R16,R19,R20;R_0805_2012Metric;6;2.4;;
+20;R7,R11,R13;R_0805_2012Metric;3;100K;;
+21;R8,R9,R10,R12,R14,R17,R18,R21,R22,R23,R24,R25;R_0805_2012Metric;12;1K;CRCW08051K00FKEAC;Resistores de película gruesa - SMD 1/8Watt 1Kohms 1%
+22;D1;LED_0805_2012Metric;1;ConexiÃ³n;AP2012HD;LED estándar - SMD (montaje superficial) RED DIFFUSED
+23;Power1;LED_0805_2012Metric;1;LED;AP2012HD;LED estándar - SMD (montaje superficial) RED DIFFUSED
+24;R28,R29;R_0805_2012Metric;2;560;;
+25;R32;R_0805_2012Metric;1;50R;;
+26;SW1;SW_PUSH_6mm_H4.3mm;1;RESET;;
+27;SW2;SW_PUSH_6mm_H4.3mm;1;PR;;
+28;H1,H2,H3,H4;MountingHole_2.2mm_M2_Pad_Via;4;MountingHole;;
