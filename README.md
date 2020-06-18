@@ -17,5 +17,6 @@ En esta página podes realizar prototipos de excelente calidad por 2 dolares.
 ------------------------------------------------------------------------------------
 
 NOTA: en el archivo BOM se pueden encontrar todos los componentes y su fabricante de la página MOUSER. 
+https://ar.mouser.com/
 
 
