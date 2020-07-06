@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 2
 Title "Módem Energy Meter"
 Date "5/5/2020"
-Rev "8/6/2020"
+Rev "5/7/2020"
 Comp "Autor: Del Sancio Leonardo Daniel"
 Comment1 "Alumno Rev: Yapura Albert"
 Comment2 "Prof. Rev: Diego Brengi"
@@ -17,7 +17,7 @@ $Comp
 L RF_Module:ESP32-WROOM-32D U1
 U 1 1 5ED95B59
 P 7850 3000
-F 0 "U1" H 7850 4581 50  0000 C CNN
+F 0 "U1" H 8100 4400 50  0000 C CNN
 F 1 "ESP32-WROOM-32D" H 7750 3700 50  0000 C CNN
 F 2 "RF_Module:ESP32-WROOM-32" H 7850 1500 50  0001 C CNN
 F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf" H 7550 3050 50  0001 C CNN
@@ -77,13 +77,6 @@ Wire Wire Line
 	4050 3900 4050 3400
 Wire Wire Line
 	4150 3900 4150 3750
-Wire Wire Line
-	4150 3750 4200 3750
-Wire Wire Line
-	4200 2750 4200 3750
-Connection ~ 4200 3750
-Wire Wire Line
-	4200 3750 4250 3750
 Wire Wire Line
 	4750 3500 4750 3900
 Wire Wire Line
@@ -173,7 +166,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 3950 2200 3550
 Wire Wire Line
-	2200 3550 2850 3550
+	2200 3550 2500 3550
 Wire Wire Line
 	3750 3400 3900 3400
 Wire Wire Line
@@ -185,9 +178,6 @@ Wire Wire Line
 	3900 3400 3900 3300
 Wire Wire Line
 	3900 3000 3900 2750
-Connection ~ 3900 2750
-Wire Wire Line
-	3900 2750 4200 2750
 NoConn ~ 5250 4400
 NoConn ~ 5250 4900
 NoConn ~ 5250 5000
@@ -220,14 +210,6 @@ NoConn ~ 7250 2000
 NoConn ~ 7250 2100
 Wire Wire Line
 	2200 4500 3150 4500
-Wire Wire Line
-	3650 2750 3650 3550
-Wire Wire Line
-	3650 3550 3650 3900
-Connection ~ 3650 3550
-Connection ~ 2850 3550
-Wire Wire Line
-	2850 3550 3650 3550
 $Comp
 L power:+3.3V #PWR0101
 U 1 1 5ED9D668
@@ -388,25 +370,23 @@ Wire Wire Line
 $Comp
 L power:+3.3V #PWR0108
 U 1 1 5EDC4044
-P 3900 2550
-F 0 "#PWR0108" H 3900 2400 50  0001 C CNN
-F 1 "+3.3V" H 3915 2723 50  0000 C CNN
-F 2 "" H 3900 2550 50  0001 C CNN
-F 3 "" H 3900 2550 50  0001 C CNN
-	1    3900 2550
+P 3650 2650
+F 0 "#PWR0108" H 3650 2500 50  0001 C CNN
+F 1 "+3.3V" H 3665 2823 50  0000 C CNN
+F 2 "" H 3650 2650 50  0001 C CNN
+F 3 "" H 3650 2650 50  0001 C CNN
+	1    3650 2650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3900 2550 3900 2750
 $Comp
 L power:+3.3V #PWR0109
 U 1 1 5EDC66D6
-P 7850 1050
-F 0 "#PWR0109" H 7850 900 50  0001 C CNN
-F 1 "+3.3V" H 7865 1223 50  0000 C CNN
-F 2 "" H 7850 1050 50  0001 C CNN
-F 3 "" H 7850 1050 50  0001 C CNN
-	1    7850 1050
+P 7850 1200
+F 0 "#PWR0109" H 7850 1050 50  0001 C CNN
+F 1 "+3.3V" H 7865 1373 50  0000 C CNN
+F 2 "" H 7850 1200 50  0001 C CNN
+F 3 "" H 7850 1200 50  0001 C CNN
+	1    7850 1200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -835,14 +815,7 @@ F 3 "~" H 6600 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7850 1050 7850 1250
-Wire Wire Line
 	6600 1350 6600 1250
-Wire Wire Line
-	6600 1250 7850 1250
-Connection ~ 7850 1250
-Wire Wire Line
-	7850 1250 7850 1600
 Wire Wire Line
 	6600 1800 7250 1800
 Wire Wire Line
@@ -1093,7 +1066,7 @@ Text Label 8550 1900 0    50   ~ 0
 TX
 Text Label 8550 2100 0    50   ~ 0
 RX
-Text Label 8550 1800 0    50   ~ 0
+Text Label 8650 1800 0    50   ~ 0
 IDO
 Wire Wire Line
 	8450 1900 8550 1900
@@ -1140,9 +1113,6 @@ Wire Wire Line
 	8800 1800 8800 2050
 Wire Wire Line
 	8350 1800 8450 1800
-Connection ~ 8450 1800
-Wire Wire Line
-	8450 1800 8800 1800
 $Sheet
 S 9850 800  1100 1900
 U 5EDCCD4D
@@ -1302,4 +1272,59 @@ Wire Wire Line
 Wire Wire Line
 	4650 2350 5000 2350
 Connection ~ 5000 2350
+$Comp
+L power:+3.3V #PWR0118
+U 1 1 5F62ECEA
+P 2500 3400
+F 0 "#PWR0118" H 2500 3250 50  0001 C CNN
+F 1 "+3.3V" H 2515 3573 50  0000 C CNN
+F 2 "" H 2500 3400 50  0001 C CNN
+F 3 "" H 2500 3400 50  0001 C CNN
+	1    2500 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 2750 3650 3900
+Wire Wire Line
+	2500 3400 2500 3550
+Connection ~ 2500 3550
+Wire Wire Line
+	2500 3550 2850 3550
+$Comp
+L power:+3.3V #PWR0119
+U 1 1 5F63A3E7
+P 6600 1250
+F 0 "#PWR0119" H 6600 1100 50  0001 C CNN
+F 1 "+3.3V" H 6615 1423 50  0000 C CNN
+F 2 "" H 6600 1250 50  0001 C CNN
+F 3 "" H 6600 1250 50  0001 C CNN
+	1    6600 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 3750 4200 3750
+$Comp
+L power:+3.3V #PWR0120
+U 1 1 5F63A7EA
+P 4200 3650
+F 0 "#PWR0120" H 4200 3500 50  0001 C CNN
+F 1 "+3.3V" H 4215 3823 50  0000 C CNN
+F 2 "" H 4200 3650 50  0001 C CNN
+F 3 "" H 4200 3650 50  0001 C CNN
+	1    4200 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 2650 3650 2750
+Connection ~ 3650 2750
+Wire Wire Line
+	4200 3650 4200 3750
+Connection ~ 4200 3750
+Wire Wire Line
+	4200 3750 4250 3750
+Wire Wire Line
+	7850 1200 7850 1600
+Wire Wire Line
+	8450 1800 8800 1800
+Connection ~ 8450 1800
 $EndSCHEMATC
