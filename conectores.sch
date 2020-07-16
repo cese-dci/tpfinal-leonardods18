@@ -10,7 +10,7 @@ Rev "5/7/2020"
 Comp "Autor: Del Sancio Leonardo Daniel"
 Comment1 "Alumno rev: Yapura Alberto"
 Comment2 "Prof. rev. Diego Brengi"
-Comment3 ""
+Comment3 "License: CC BY 4.0"
 Comment4 ""
 $EndDescr
 $Comp

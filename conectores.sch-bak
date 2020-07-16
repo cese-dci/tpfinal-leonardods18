@@ -7,11 +7,11 @@ Sheet 2 2
 Title "Módem Energy Meter"
 Date "5/5/2020"
 Rev "5/7/2020"
-Comp "Autor: Del Sancio Leonardo Daniel"
-Comment1 "Alumno rev: Yapura Alberto"
+Comp ""
+Comment1 "Bajo Licencia Creative Commons Attribution Sharealike 4.0"
 Comment2 "Prof. rev. Diego Brengi"
-Comment3 ""
-Comment4 ""
+Comment3 "Alumno rev: Yapura Alberto"
+Comment4 "Autor: Del Sancio Leonardo Daniel"
 $EndDescr
 $Comp
 L Device:R R9
