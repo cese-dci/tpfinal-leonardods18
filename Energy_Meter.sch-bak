@@ -7,11 +7,11 @@ Sheet 1 2
 Title "Módem Energy Meter"
 Date "5/5/2020"
 Rev "15/7/2020"
-Comp ""
-Comment1 "Bajo Licencia Creative Commons Attribution Sharealike 4.0"
+Comp "Autor: Del Sancio Leonardo Daniel"
+Comment1 "Alumno Rev: Yapura Alberto"
 Comment2 "Prof. Rev: Diego Brengi"
-Comment3 "Alumno Rev: Yapura Alberto"
-Comment4 "Autor: Del Sancio Leonardo Daniel"
+Comment3 "License: CC BY 4.0"
+Comment4 ""
 $EndDescr
 $Comp
 L RF_Module:ESP32-WROOM-32D U1
@@ -1006,7 +1006,7 @@ Wire Wire Line
 	1750 1500 1750 1350
 Wire Wire Line
 	1750 1800 1750 1950
-Text Notes 3300 1250 0    50   ~ 0
+Text Notes 3400 1050 0    50   ~ 0
 SALIDA: 3.3V
 Text Notes 750  1050 0    50   ~ 0
 FUENTE 5V\n

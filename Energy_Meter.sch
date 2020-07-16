@@ -818,10 +818,10 @@ Wire Wire Line
 Wire Wire Line
 	1150 1350 1500 1350
 $Comp
-L Connector:Conn_01x02_Male CON1
+L Connector:Conn_01x02_Male J4
 U 1 1 5EE1A71F
 P 950 1350
-F 0 "CON1" H 1058 1531 50  0000 C CNN
+F 0 "J4" H 1058 1531 50  0000 C CNN
 F 1 "Fuente" H 1058 1440 50  0000 C CNN
 F 2 "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical" H 950 1350 50  0001 C CNN
 F 3 "~" H 950 1350 50  0001 C CNN
@@ -1006,7 +1006,7 @@ Wire Wire Line
 	1750 1500 1750 1350
 Wire Wire Line
 	1750 1800 1750 1950
-Text Notes 3300 1250 0    50   ~ 0
+Text Notes 3400 1050 0    50   ~ 0
 SALIDA: 3.3V
 Text Notes 750  1050 0    50   ~ 0
 FUENTE 5V\n

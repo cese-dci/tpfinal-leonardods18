@@ -14,10 +14,10 @@
     (title "ENERGY METER")
     (date 18/5/2020)
     (rev 15/7/2020)
-    (comment 1 "Bajo Licencia Creative Commons Attribution Sharealike 4.0")
+    (company "Autor: DEL SANCIO LEONARDO")
+    (comment 1 "Rev Alumno: Yapura Alberto")
     (comment 2 "Rev Docente: Diego Brengi")
-    (comment 3 "Rev Alumno: Yapura Alberto")
-    (comment 4 "Autor: DEL SANCIO LEONARDO")
+    (comment 3 "License: CC BY 4.0")
   )
 
   (layers

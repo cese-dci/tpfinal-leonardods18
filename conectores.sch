@@ -421,10 +421,10 @@ Wire Wire Line
 Text Notes 4000 850  0    150  Italic 30
 Configuración de Tensión
 $Comp
-L Connector:AudioJack3 IA1
+L Connector:AudioJack3 J1
 U 1 1 5EDFB80D
 P 2250 7000
-F 0 "IA1" H 2232 7325 50  0000 C CNN
+F 0 "J1" H 2232 7325 50  0000 C CNN
 F 1 "Corriente A" H 2232 7234 50  0000 C CNN
 F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal" H 2250 7000 50  0001 C CNN
 F 3 "~" H 2250 7000 50  0001 C CNN
@@ -432,10 +432,10 @@ F 3 "~" H 2250 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:AudioJack3 IB1
+L Connector:AudioJack3 J2
 U 1 1 5EDFC470
 P 3550 7000
-F 0 "IB1" H 3532 7325 50  0000 C CNN
+F 0 "J2" H 3532 7325 50  0000 C CNN
 F 1 "Corriente B" H 3532 7234 50  0000 C CNN
 F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal" H 3550 7000 50  0001 C CNN
 F 3 "~" H 3550 7000 50  0001 C CNN
@@ -443,10 +443,10 @@ F 3 "~" H 3550 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:AudioJack3 IC1
+L Connector:AudioJack3 J3
 U 1 1 5EDFCA1A
 P 4750 7000
-F 0 "IC1" H 4732 7325 50  0000 C CNN
+F 0 "J3" H 4732 7325 50  0000 C CNN
 F 1 "Corriente C" H 4732 7234 50  0000 C CNN
 F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal" H 4750 7000 50  0001 C CNN
 F 3 "~" H 4750 7000 50  0001 C CNN
